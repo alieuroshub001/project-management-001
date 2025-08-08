@@ -7,6 +7,10 @@ export default function Home() {
       <p>Use the API endpoints for signup, OTP verification, login, and reset password.</p>
       <ul>
         <li><a href="/login">Login</a></li>
+        <li><a href="/signup">Sign up</a></li>
+        <li><a href="/forgot-password">Forgot Password</a></li>
+        <li><a href="/verify-otp">Verify OTP</a></li>
+        <li><a href="/reset-password">Reset Password</a></li>
         <li><a href="/admin">Admin Dashboard</a></li>
         <li><a href="/team">Team Dashboard</a></li>
         <li><a href="/hr">HR Dashboard</a></li>
