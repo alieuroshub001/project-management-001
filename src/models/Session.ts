@@ -6,7 +6,7 @@ const SessionSchema = new Schema(
     userAgent: { type: String },
     ip: { type: String },
     active: { type: Boolean, default: true },
-    expiresAt: { type: Date, required: true, index: true },
+    expiresAt: { type: Date, required: true },
   },
   { timestamps: true }
 );

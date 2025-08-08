@@ -17,7 +17,7 @@ export const transporter = nodemailer.createTransport({
   },
 });
 
-export async function sendOtpEmail(to: string, code: string, purpose: "SIGNUP" | "RESET") {
+export async function sendOtpEmail(to: string, code: string, purpose: "SIGNUP" | "FORGOT_PASSWORD") {
   const subject = purpose === "SIGNUP" ? "Your Signup OTP" : "Your Password Reset OTP";
 
   const html = `<div style="font-family:sans-serif">

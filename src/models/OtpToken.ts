@@ -6,7 +6,7 @@ const OtpTokenSchema = new Schema(
     email: { type: String, required: true, index: true },
     code: { type: String, required: true },
     purpose: { type: String, enum: ["SIGNUP", "FORGOT_PASSWORD"], required: true },
-    expiresAt: { type: Date, required: true, index: true },
+    expiresAt: { type: Date, required: true },
     consumedAt: { type: Date },
   },
   { timestamps: true }
